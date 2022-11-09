@@ -1,0 +1,135 @@
+@media screen and (max-width: 768px) {
+
+    .primera-seccion img {
+        width: 10rem;
+        margin: 5rem 0;
+    }
+
+    .info div {
+        width: 23rem;
+        margin: 2rem;
+    }
+
+    .accede {
+        font-size: 2rem;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .empresarial {
+        color: #ff8c00;
+        font-size: 2.6rem;
+        font-weight: 800;
+        font-style: italic;
+        margin: -1.2rem 0;
+        padding: 0;
+    }
+
+    .boton{
+        scale: 0.8;
+    }
+
+    .destello{
+        margin:-0.2rem 0 !important;
+        width:100%;
+    }
+
+    .profit img{
+        width: 15rem;
+    }
+
+    .destello3 img{
+        width: 50rem;
+        position: relative;
+        left: -3rem;
+        bottom: 5.6rem;
+    }
+
+    .franja{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .p1, .p2, .p3, .p4, .p5, .p6{
+        width: auto;
+    }
+
+    .toma2{
+        width: 18.5rem;
+    }
+
+    .toma2 p{
+        font-size: 1.5rem;
+    }
+
+    .iconos{
+        scale: 0.8;
+        width: 39rem;
+        align-items: flex-start;
+    }
+
+    .iconos2-1, .iconos2-2, .iconos2-3{
+        padding: 0;
+    }
+
+    .iconos2-1 p{
+        position: relative;
+        top: 0;
+    }
+
+    .iconos2-2 p{
+        position: relative;
+        top: 1.2rem;
+    }
+
+    .iconos2-3 p{
+        position: relative;
+        top: -0.4rem;
+    }
+
+    .momento2{
+        width: auto;
+    }
+
+    .momento2 p{
+        // background-color: brown;
+        scale: 0.7;
+        width: auto;
+    }
+
+    .block1, .block2, .block3{
+        scale: 0.8;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+
+    .obten{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .iconos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iconos2-2{
+        margin: 8rem 0;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block1, .block2, .block3{
+        margin: 3rem 0;
+        scale: 1.2;
+    }
+
+}

@@ -1,0 +1,393 @@
+.primera-seccion {
+    background-color: rgb(49, 4, 4);
+    background-image: url("../img/background1.png");
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.primera-seccion nav {
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.primera-seccion img {
+    width: 12rem;
+    margin: 5rem 0;
+}
+
+.info {
+    width: 100%;
+    /* background-color: brown; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.info div {
+    /* background-color: cornflowerblue; */
+    width: 34rem;
+    margin: 2rem;
+}
+
+.accede {
+    /* background-color: chocolate; */
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.empresarial {
+    color: #ff8c00;
+    font-size: 3.8rem;
+    font-weight: 800;
+    font-style: italic;
+    margin: -1.2rem 0;
+    padding: 0;
+}
+
+.info div img {
+    width: 100%;
+    margin: -0.3rem;
+}
+
+.destello{
+    margin:-0.5rem 0 !important;
+}
+
+.destello2{
+    margin-top: -0.5rem !important;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin: 6rem 0;
+}
+
+.primera-seccion div button {
+    background-color: #ff8c00;
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+.primera-seccion div button p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: italic;
+    margin: 1rem 2rem;
+}
+
+.primera-seccion div button a {
+    text-decoration: none;
+}
+
+.primera-seccion div button:active {
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75) inset;
+    background-color: #32184A;
+}
+
+.primera-seccion div button p:active {
+    color: #ff8c00
+}
+
+.obten{
+    color: white;
+    /* background-color: cornflowerblue; */
+    width: 34rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.obten p{
+    font-size: 1.18rem;
+}
+
+.obten p span{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.obten img{
+    width: 100%;
+    margin: -0.6rem 0 0 0;
+}
+
+.otro{
+    width: 100%;
+}
+
+.profit img{
+    // background-color: #ff8c00;
+    width: 30rem;
+    margin-bottom: 10rem;
+}
+
+.franja{
+    // background-color: #32184A;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+.p1{
+    background-color: rgb(50, 24, 74);
+    width: 16.6%;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.p2{
+    background-color: rgba(50, 24, 74, 0.83);
+    width: 16.6%;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.p3{
+    background-color: rgba(50, 24, 74, 0.8);
+    width: 16.6%;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.p4{
+    background-color: rgba(50, 24, 74, 0.64);
+    width: 16.6%;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.p5{
+    background-color: rgba(50, 24, 74, 0.48);
+    width: 16.6%;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.p6{
+    background-color: rgba(50, 24, 74, 0.32);
+    width: 16.6%;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.toma{
+    background-image: url("../img/background2.png");
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toma2{
+    width: 25rem;
+    margin: 5rem;
+}
+
+.toma2 p{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.toma2 p span{
+    color:#ff8c00;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.iconos{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    // background-color: rgb(68, 7, 7);
+    align-items: center;
+    color: white;
+    margin-bottom: 7rem;
+}
+
+.iconos2-1{
+    // background-color: #ff8c00;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos2-1 p{
+    position: relative;
+    top: 2rem;
+}
+
+.iconos2-1 p span{
+    font-style: italic;
+    font-weight: 700;
+}
+
+.iconos2-1 img{
+    width: 7rem;
+    margin: 1rem;
+}
+
+.iconos2-2{
+    // background-color: #ff8c00;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos2-2 p{
+    position: relative;
+    top: 3.6rem;
+}
+
+.iconos2-2 p span{
+    font-style: italic;
+    font-weight: 700;
+}
+
+.iconos2-2 img{
+    width: 9rem;
+    margin: 1.1rem;
+}
+
+.iconos2-3{
+    // background-color: #ff8c00;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos2-3 p{
+    position: relative;
+    top: 2.6rem;
+}
+
+.iconos2-3 p span{
+    font-style: italic;
+    font-weight: 700;
+}
+
+.iconos2-3 img{
+    width: 6rem;
+    margin: 1.5rem;
+}
+
+.separador{
+    width: 100%;
+    height: 1.2rem;
+    background-color: #ff8c00;
+}
+
+.momento{
+    background-color: rgb(49, 4, 4);
+    background-image: url("../img/background3.png");
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: auto;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 0;
+}
+
+.momento2{
+    // background-color: rgb(133, 0, 0);
+    width: 36rem;
+    color: #ff8c00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.momento2 p{
+    // background-color: #301a00;
+    width: 36rem;
+    font-size: 2.8rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.momento2 p span{
+    color: white;
+}
+
+.momento button {
+    background-color: #ff8c00;
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+.momento button p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: italic;
+    margin: 1rem 2rem;
+}
+
+.momento button a {
+    text-decoration: none;
+}
+
+.momento button:active {
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75) inset;
+    background-color: #32184A;
+}
+
+.momento button p:active {
+    color: #ff8c00
+}
